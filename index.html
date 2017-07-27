@@ -2,56 +2,119 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Portfolio</title>
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final_Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
 </head>
 
 <body>
-  <nav>
-      <div class="nav-wrapper black">
-        <a href="#" class="brand-logo">Logo</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">JavaScript</a></li>
-        </ul>
-      </div>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#"><strong>Jose Velez</strong> </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active" role="presentation"><a href="#">About </a></li>
+                    <li role="presentation"><a href="#">Knowledge </a></li>
+                    <li role="presentation"><a href="#">Projects </a></li>
+                    <li role="presentation"><a href="#">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-  <!--Container with the parallax effect-->
-  <div class="parallax-container">
-    <div class="parallax"><img src="./assets/images/green-lines.png"></div>
-  </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">About</h2>
-      <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div>
+        <div class="jumbotron" id="who">
+            <h1 class="text-center">Full Stack Developer </h1>
+            <p class="text-center">Fully Responsive Web Pages and Apps</p>
+            <p></p>
+        </div>
     </div>
-  </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="./assets/images/green-lines.png"></div>
-  </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">My Expertise</h2>
-      <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="container">
+        <div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-1 col-sm-6" id="picture">
+                    <div class="thumbnail"><img src="assets/img/Picture.jpg"></div>
+                </div>
+                <div class="col-md-6 col-md-offset-1 about">
+                    <h1 class="text-center">Get To Know Me</h1>
+                    <p class="text-center">Full Stack web developer looking for opportunities to showcase my abilities </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="knowledge">
+                    <h1>Knowledge </h1></div>
+            </div>
+            <div class="row knowledge">
+                <div class="col-md-4 col-sm-6 col-sm-offset-0" data-aos="fade-up-left" data-aos-delay="100">
+                    <h1>Html &amp; Css</h1></div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <h1>Javascript </h1></div>
+                <div class="col-md-4" data-aos="fade-up-right" data-aos-delay="300">
+                    <h1>JQuery </h1></div>
+            </div>
+            <div class="row knowledge">
+                <div class="col-md-4 col-sm-6" data-aos="fade-down-left" data-aos-delay="100">
+                    <h1>MySQL </h1></div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="200">
+                    <h1>ReactJs </h1></div>
+                <div class="col-md-4" data-aos="fade-down-right" data-aos-delay="300">
+                    <h1>PHP Laravel</h1></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" id="projectHead">
+                <h1>Projects </h1></div>
+            <div class="col-md-4">
+                <div class="thumbnail" data-aos="fade-up-left" data-aos-delay="300"><img src="assets/img/traintime.png" href="https://arcane-meadow-80450.herokuapp.com/"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail" data-aos="fade-up" data-aos-delay="400"><img src="assets/img/travelapp.png"></div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail" data-aos="fade-up-right" data-aos-delay="500"><img src="assets/img/sequelizeBurger.png"></div>
+            </div>
+            <div class="col-md-4 col-md-offset-4">
+                <div class="thumbnail" data-aos="fade-down-left" data-aos-delay="400"><img src="assets/img/matchstick.png"></div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="./assets/images/green-lines.png"></div>
-  </div>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
-  <script type="text/javascript" src="assets/js/materialize.js"></script>
-
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3" id="contact">
+            <form>
+                <label>Name </label>
+                <input class="form-control" type="text">
+                <label>Email </label>
+                <input class="form-control" type="email">
+                <label>Message </label>
+                <textarea class="form-control" placeholder="Message"></textarea>
+                <button class="btn btn-default" type="submit" id="contact-Btn">Submit </button>
+            </form>
+        </div>
+    </div>
+    <div id="footer" class="footer-basic">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-github"></i></a><a href="#"><i class="icon ion-social-linkedin"></i></a><a href="#"><i class="fa fa-stack-overflow"></i></a></div>
+            <ul class="list-inline">
+                <li><a href="#">About </a></li>
+                <li><a href="#">Knowledge </a></li>
+                <li><a href="#">Projects </a></li>
+                <li><a href="#">Contact Me</a></li>
+                <li></li>
+            </ul>
+            <p class="copyright">Company Name © 2016</p>
+        </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 
 </html>
