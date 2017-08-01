@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, san-serif;
+  background-color: rgba(108, 153, 163, 0.65);
+}
+
+#picture {
+  max-width: 300px;
+  margin-top: 50px;
+}
+
+#who {
+  padding: 40px;
+  text-align: center;
+  background: url(-lines.png) no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 50px;
+}
+
+@media (max-width:991px) {
+  #who {
+    padding: 20px;
+  }
+}
+
+#fullStack {
+  color: white;
+}
+
+#who .jumbotron {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: rgba(77, 45, 45, 0.75);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (max-width:991px) {
+  #who .jumbotron {
+    padding: 25px;
+  }
+}
+
+.col-md-6.about {
+  text-align: center;
+  padding: 60px 0;
+  margin-top: -50px;
+}
+
+.about_me {
+  text-align: justify;
+  padding: 10px;
+}
+
+@media (max-width:550) {
+  .about_me {
+    padding: 50px;
+    text-align: center;
+    color: white;
+  }
+}
+
+.knowledge {
+  margin: 25px;
+  text-align: center;
+}
+
+#contact {
+  background-color: rgba(248, 253, 255, 0.39);
+  padding: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#contact-Btn {
+  margin-top: 15px;
+}
+
+@media (max-width:767px) {
+  #picture {
+    margin: auto;
+  }
+}
+
+#footer {
+  background-color: rgba(128, 128, 128, 0.23);
+}
+
+#knowledge {
+  text-align: center;
+}
+
+#projectHead {
+  text-align: center;
+  padding: 20px;
+}
