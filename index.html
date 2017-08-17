@@ -91,13 +91,13 @@
   </div>
   <div class="row">
     <div class="col-md-6 col-md-offset-3" id="contact">
-      <form>
+      <form action="https://formspree.io/jose.velez363@gmail.com" method="POST" id="contactForm">
         <label>Name </label>
-        <input class="form-control" type="text">
+        <input class="form-control" type="text" id="name">
         <label>Email </label>
-        <input class="form-control" type="email">
+        <input class="form-control" type="email" name="email" id="email">
         <label>Message </label>
-        <textarea class="form-control" placeholder="Message"></textarea>
+        <textarea class="form-control" placeholder="Message" id="message" name="message"></textarea>
         <button class="btn btn-default" type="submit" id="contact-Btn">Submit </button>
       </form>
     </div>
@@ -119,6 +119,9 @@
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/js/bs-animation.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+  </script>
 </body>
 
 </html>
