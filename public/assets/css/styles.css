@@ -1,7 +1,34 @@
 body {
   font-family: Arial, Helvetica, san-serif;
   background-color: rgba(108, 153, 163, 0.65);
+  margin:0px 0px;
 }
+
+#landing{
+  background-image:url('../img/background.jpg');
+  background-size:cover;
+  position:relative;
+  height:100vh;
+}
+
+.header{
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);
+
+}
+
+.typewrite{
+  font-size: 75px;
+  color: rgba(#0f24db, 0.74);
+}
+
 
 .section{
   width: 100%;
