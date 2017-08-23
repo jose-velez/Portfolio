@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, san-serif;
-  background-color: rgba(108, 153, 163, 0.65);
+  background-color: black;
   margin:0px 0px;
 }
 
@@ -67,27 +67,71 @@ body {
       transform: translateY(50px);
     }
 }
-
-.section{
-  width: 100%;
-  height: 33%;
-  margin: auto
+/*About Section*/
+#about{
+  /*background-image:url('../img/background.jpg');*/
+  background-color: black;
+  background-size:cover;
+  position:relative;
+  height:100vh;
 }
 
+.aboutMe {
+  position: absolute;
+  top: 125px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
 
 #picture {
-  max-width: 300px;
+  max-width: 500px;
   margin-top: 50px;
+  animation: pictureAnimation 4s;
 }
 
-#who {
-  padding: 40px;
-  text-align: center;
-  background: url(-lines.png) no-repeat;
-  background-size: cover;
-  color: white;
-  margin: 50px;
+@keyframes pictureAnimation {
+      0%{
+        transform: translateX(100px);
+        opacity: 0.0;
+      }
+      20%
+      {
+        transform: translateY(80px);
+        opacity: 0.2;
+      }
+      100%
+      {
+        transform: translateY(0px);
+        opacity: 1.0;
+      }
+
 }
+
+/*Knowledge Section*/
+#knowledge {
+  /*background-image:url('../img/background.jpg');*/
+  background-color: black;
+  background-size:cover;
+  position:relative;
+  height:100vh;
+}
+
+/*Projects Section*/
+#projects {
+  /*background-image:url('../img/background.jpg');*/
+  background-color: black;
+  background-size:cover;
+  position:relative;
+  height:100vh;
+}
+
+
+
+
+
+
+
 
 @media (max-width:991px) {
   #who {
@@ -95,9 +139,6 @@ body {
   }
 }
 
-#fullStack {
-  color: white;
-}
 
 #who .jumbotron {
   border-radius: 20px;
@@ -156,13 +197,4 @@ body {
 
 #footer {
   background-color: rgba(128, 128, 128, 0.23);
-}
-
-#knowledge {
-  text-align: center;
-}
-
-#projectHead {
-  text-align: center;
-  padding: 20px;
 }

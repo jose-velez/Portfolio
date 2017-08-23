@@ -16,16 +16,16 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top" id="portfolio-navbar">
     <div class="container">
       <div class="navbar-header"><a class="navbar-brand navbar-link" href="#"><strong>Jose Velez</strong> </a>
         <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
       </div>
       <div class="collapse navbar-collapse" id="navcol-1">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#who">About </a></li>
+          <li><a href="#about">About </a></li>
           <li><a href="#knowledge">Knowledge </a></li>
-          <li><a href="#projectHead">Projects </a></li>
+          <li><a href="#projects">Projects </a></li>
           <li><a href="#contact">Contact Me</a></li>
         </ul>
       </div>
@@ -34,17 +34,50 @@
 
   <div class="wrapper">
     <div id="landing">
-      <div class="header">
-        <h1><a href="" class="typewrite" data-period="2000" data-type='[ "Hi, My name is Jose.", "Full Stack Developer."]'>
+      <div class="row">
+        <div class="col-md-12 header">
+          <h1><a href="" class="typewrite" data-period="2000" data-type='[ "Hi, My name is Jose.", "Full Stack Developer."]'>
           <span class="wrap"></span>
           </a></h1>
+        </div>
       </div>
-      <div class="showMore">
-        <h3>Show More</h3>
+      <div class="row">
+        <div class="col-md-12 showMore">
+          <h3>Show More</h3>
           <i class="fa fa-angle-down" aria-hidden="true"></i>
+        </div>
       </div>
     </div>
   </div>
+
+  <div class="wrapper" data-spy="scroll" data-target="#portfolio-navbar" data-offset="0">
+    <div id="about">
+      <div class="row aboutMe">
+        <div class="col-md-6 col-md-offset-1 col-sm-6" id="picture">
+          <div class="thumbnail"><img src="assets/img/Picture.jpg"></div>
+        </div>
+        <div class="col-md-6 col-md-offset-1 about">
+          <h1 class="text-center">Get To Know Me</h1>
+          <p class="about_me">My name is Jose Enrique Velez Lespier. I am from Puerto Rico and I am 24 years old. I have been studying for a few years now. I started in the prestigious University of Puerto Rico Mayaguez precinct. I moved then to the Polytechnic University
+            of Puerto Rico where I'm completing my mayor in Computer Engineering.</p>
+          <p class="about_me">I like everything that involves some kind of intelligence or electricity. If someone asked me what I am really good at, I would say mathematics, science, and my favorite which is technology. I believe that technology reflects who we are as a
+            society today and it also reflects how much we have grown intellectually. I really enjoy when I try new things on my computer even if there are risks. Finally, learning everyday and overcoming my challenges has made me a better person.</p>
+        </div>
+      </div>
+
+    </div>
+    <div id="knowledge">
+        <h1>knowledge</h1>
+      </div>
+
+  </div>
+
+  <!--<div id="knowledge">
+      <h1>knowledge</h1>
+    </div>
+    <div id="projects">
+      <h1>projects</h1>
+    </div>-->
 
 
   <script src="assets/js/jquery.min.js"></script>
