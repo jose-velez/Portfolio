@@ -3,6 +3,13 @@ body {
   background-color: rgba(108, 153, 163, 0.65);
 }
 
+.section{
+  width: 100%;
+  height: 33%;
+  margin: auto
+}
+
+
 #picture {
   max-width: 300px;
   margin-top: 50px;

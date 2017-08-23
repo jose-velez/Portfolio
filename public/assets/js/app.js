@@ -1,5 +1,25 @@
 $(document).ready(function() {
   console.log("Document Ready");
+
+  // Script For the animation
+  $('.nav li a').click(function() {
+  if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+  && location.hostname == this.hostname) {
+    var $target = $(this.hash);
+    $target = $target.length && $target
+    || $('[name=' + this.hash.slice(1) +']');
+    if ($target.length) {
+      var targetOffset = $target.offset().top;
+      $('html,body')
+      .animate({scrollTop: targetOffset}, 1000);
+     return false;
+    }
+  }
+});
+
+// Script to make the div take the full screen page
+$(".section").css("min-height", $(window).height());
+
   $("#contactForm").submit(function(e) {
     var name = $("#name").val().trim();
     var email = $("#email").val().trim();

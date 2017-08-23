@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Final_Portfolio</title>
+  <title>Jose Velez</title>
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
   <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
@@ -15,31 +15,31 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header"><a class="navbar-brand navbar-link" href="#"><strong>Jose Velez</strong> </a>
         <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
       </div>
       <div class="collapse navbar-collapse" id="navcol-1">
         <ul class="nav navbar-nav navbar-right">
-          <li role="presentation"><a href="#who">About </a></li>
-          <li role="presentation"><a href="#knowledge">Knowledge </a></li>
-          <li role="presentation"><a href="#projectHead">Projects </a></li>
-          <li role="presentation"><a href="#contact">Contact Me</a></li>
+          <li><a href="#who">About </a></li>
+          <li><a href="#knowledge">Knowledge </a></li>
+          <li><a href="#projectHead">Projects </a></li>
+          <li><a href="#contact">Contact Me</a></li>
         </ul>
       </div>
     </div>
   </nav>
-  <div>
-    <div class="jumbotron" id="who">
+  <div class="section">
+    <div class="jumbotron" id="landing">
       <h1 class="text-center">Full Stack Developer </h1>
       <p class="text-center">Fully Responsive Web Pages and Apps</p>
       <p></p>
     </div>
   </div>
-  <div class="container">
-    <div>
-      <div class="row">
+  <div class="container-full">
+    <div class="section">
+      <div class="row" id="who">
         <div class="col-md-6 col-md-offset-1 col-sm-6" id="picture">
           <div class="thumbnail"><img src="assets/img/Picture.jpg"></div>
         </div>
@@ -51,8 +51,10 @@
             society today and it also reflects how much we have grown intellectually. I really enjoy when I try new things on my computer even if there are risks. Finally, learning everyday and overcoming my challenges has made me a better person.</p>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-12" id="knowledge">
+    </div>
+    <div class="section">
+      <div class="row" id="knowledge">
+        <div class="col-md-12">
           <h1>Knowledge </h1></div>
       </div>
       <div class="row knowledge">
@@ -65,15 +67,19 @@
       </div>
       <div class="row knowledge">
         <div class="col-md-4 col-sm-6" data-aos="fade-down-left" data-aos-delay="100">
-          <h1>MySQL </h1></div>
+          <h1>MySQL </h1>
+        </div>
         <div class="col-md-4" data-aos="fade-down" data-aos-delay="200">
-          <h1>ReactJs </h1></div>
+          <h1>ReactJs </h1>
+        </div>
         <div class="col-md-4" data-aos="fade-down-right" data-aos-delay="300">
-          <h1>PHP Laravel</h1></div>
+          <h1>PHP Laravel</h1>
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12" id="projectHead">
+  <div class="section">
+    <div class="row" id="projectHead">
+      <div class="col-md-12">
         <h1>Projects </h1></div>
       <div class="col-md-4">
         <div class="thumbnail" data-aos="fade-up-left" data-aos-delay="300"><img src="assets/img/traintime.png" href="https://arcane-meadow-80450.herokuapp.com/"></div>
@@ -89,18 +95,20 @@
       </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3" id="contact">
-      <h2>Let's build something awesome</h2>
-      <form action="https://formspree.io/jose.velez363@gmail.com" method="POST" id="contactForm">
-        <label>Name </label>
-        <input class="form-control" type="text" id="name">
-        <label>Email </label>
-        <input class="form-control" type="email" name="email" id="email">
-        <label>Message </label>
-        <textarea class="form-control" placeholder="Message" id="message" name="message"></textarea>
-        <button class="btn btn-default" type="submit" id="contact-Btn">Submit </button>
-      </form>
+  <div class="section">
+    <div class="row" id="contact">
+      <div class="col-md-6 col-md-offset-3">
+        <h2>Let's build something awesome</h2>
+        <form action="https://formspree.io/jose.velez363@gmail.com" method="POST" id="contactForm">
+          <label>Name </label>
+          <input class="form-control" type="text" id="name">
+          <label>Email </label>
+          <input class="form-control" type="email" name="email" id="email">
+          <label>Message </label>
+          <textarea class="form-control" placeholder="Message" id="message" name="message"></textarea>
+          <button class="btn btn-default" type="submit" id="contact-Btn">Submit </button>
+        </form>
+      </div>
     </div>
   </div>
   <div id="footer" class="footer-basic">
