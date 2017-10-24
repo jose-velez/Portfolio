@@ -80,14 +80,153 @@
           <div class="col-md-4" data-aos="fade-up-right" data-aos-delay="300">
               <h1>JQuery </h1></div>
       </div>
+      <div class="row knowledge">
+          <div class="col-md-4 col-sm-6" data-aos="fade-down-left" data-aos-delay="100">
+              <h1>MySQL </h1></div>
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="200">
+              <h1>ReactJs </h1></div>
+          <div class="col-md-4" data-aos="fade-down-right" data-aos-delay="300">
+              <h1>PHP Laravel</h1></div>
+      </div>
 
     </div>
   </div>
 
     <div id="projects">
-      <h1>projects</h1>
-    </div>
+      <h1>Projects</h1>
+      <div class="row myProjects">
 
+
+        <div class="col-md-4">
+            <div class="thumbnail" data-aos="fade-up-left" data-aos-delay="300"><img src="assets/img/traintime.png" data-toggle="modal" data-target="#trainTimeModal"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail" data-aos="fade-up" data-aos-delay="400"><img src="assets/img/travelapp.png" data-toggle="modal" data-target="#travelAppModal"></div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail" data-aos="fade-up-right" data-aos-delay="500"><img src="assets/img/sequelizeBurger.png" data-toggle="modal" data-target="#burgerAppModal"></div>
+        </div>
+        <div class="col-md-4 col-md-offset-4">
+            <div class="thumbnail" data-aos="fade-down-left" data-aos-delay="400"><img src="assets/img/matchstick.png" data-toggle="modal" data-target="#matchstickAppModal"></div>
+        </div>
+    </div>
+    <!--Modal for the Train Time Project-->
+      <div class="modal fade" id="trainTimeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Train Time</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img id="modalPictureTrain"  class="modalPicture" src="assets/img/traintime.png" alt="Train Time">
+                  </div>
+                  <div class="col-md-offset-6">
+                    <p>In this project I used FireBase to build an app were you can see the Train schedule, add another one and follow them in real time</p>
+                  </div>
+
+                </div>
+
+            </div>
+            <div class="modal-footer">
+              <a href="https://arcane-meadow-80450.herokuapp.com/" target="_blank" ><button type="button" class="btn btn-primary">Go To Project</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--===-->
+    <!--Modal For the Travel app-->
+    <div class="modal fade" id="travelAppModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Get Out and Go</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                <div class="col-md-3">
+                  <img id="modalPictureTravel" class="modalPicture" src="assets/img/travelapp.png" alt="Get Out and Go">
+                </div>
+                <div class="col-md-offset-6">
+                  <p>In this app I used Sequelize to manage the Database. This app was the first time I used MySQL with sequelize. The Purpose of this app is to add burger to the database and remove them.</p>
+                </div>
+
+              </div>
+
+          </div>
+          <div class="modal-footer">
+            <a href="https://pure-river-50793.herokuapp.com/" target="_blank" ><button type="button" class="btn btn-primary">Go To Project</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--===-->
+    <!--Modal For the Burger app-->
+    <div class="modal fade" id="burgerAppModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Burger</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                <div class="col-md-3">
+                  <img id="modalPictureBurger" class="modalPicture"src="assets/img/sequelizeBurger.png" alt="Burger">
+                </div>
+                <div class="col-md-offset-6">
+                  <p>This is our first Group Project in class where we use different Api to build it. This is a hiking app where you can find all the different hiking places wherever you go at the United States.</p>
+                </div>
+
+              </div>
+
+          </div>
+          <div class="modal-footer">
+            <a href="https://sequelizebureger363.herokuapp.com/" target="_blank" ><button type="button" class="btn btn-primary">Go To Project</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--===-->
+    <!--Modal For the Matchstick app-->
+    <div class="modal fade" id="matchstickAppModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Matchstick</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+              <div class="row">
+                <div class="col-md-3">
+                  <img id="modalPictureMatchstick" class="modalPicture"src="assets/img/matchstick.png" alt="MatchStick">
+                </div>
+                <div class="col-md-offset-6">
+                  <p>This is our second project done in class. Here we develop a Social media app that connect you with others based on a questionaire that you fill out when you create your account.</p>
+                </div>
+
+              </div>
+
+          </div>
+          <div class="modal-footer">
+            <a href="https://matchstickdating.herokuapp.com/" target="_blank" ><button type="button" class="btn btn-primary">Go To Project</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--===-->
+  </div>
     <div id="footer" class="footer-basic">
         <footer>
             <div class="social"><a href="#"><i class="icon ion-social-github"></i></a><a href="#"><i class="icon ion-social-linkedin"></i></a><a href="#"><i class="fa fa-stack-overflow"></i></a></div>
