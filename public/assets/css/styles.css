@@ -90,6 +90,7 @@ body {
   /*animation: pictureAnimation 4s;*/
 }
 
+/*paragraphs about me section*/
 .about_me{
   font-size: 16px;
   font-family: sans-serif;
@@ -152,6 +153,16 @@ body {
 
 }
 
+@media screen and (max-width: 480px) {
+
+    .myProjects {
+        display: block;
+        width: 65%;
+        margin: 0 auto;
+    }
+
+}
+
 .modal{
   position: fixed;
     top: 50%;
@@ -171,29 +182,6 @@ body {
   max-width: 250px
 }
 
-
-
-
-@media (max-width:991px) {
-  #who {
-    padding: 20px;
-  }
-}
-
-
-#who .jumbotron {
-  border-radius: 20px;
-  padding: 40px;
-  background-color: rgba(77, 45, 45, 0.75);
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-@media (max-width:991px) {
-  #who .jumbotron {
-    padding: 25px;
-  }
-}
 
 .col-md-6.about {
   text-align: center;
