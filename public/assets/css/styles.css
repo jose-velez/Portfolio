@@ -17,6 +17,7 @@ body {
   text-align:center;
   width:100%;
   color:#fff;
+  font-family: 'Fredericka the Great', cursive;
   font-size:36px;
   -ms-transform: translate(0,-50%); /* IE 9 */
     -webkit-transform: translate(0,-50%); /* Safari */
@@ -70,15 +71,18 @@ body {
 /*About Section*/
 #about{
   /*background-image:url('../img/background.jpg');*/
+  margin: 100px 25px 25px 25px;
+  padding: 10px;
   background-color: black;
+  font-family: 'Exo 2', sans-serif;
   background-size:cover;
-  position:relative;
+  /*position:relative;*/
   height:100vh;
 }
 
 .aboutMe {
-  position: absolute;
-  top: 125px;
+  /*position: absolute;
+  top: 125px;*/
   text-align: center;
   width: 100%;
   color: white;
@@ -92,7 +96,7 @@ body {
 
 /*paragraphs about me section*/
 .about_me{
-  font-size: 16px;
+  font-size: 20px;
   font-family: sans-serif;
   color: #fff;
 
@@ -119,15 +123,17 @@ body {
 /*Knowledge Section*/
 #knowledge {
   /*background-image:url('../img/background.jpg');*/
+  margin: 25px 25px 0 25px;
+  padding: 10px;
   background-color: black;
   background-size:cover;
-  position:relative;
+  /*position:relative;*/
   height:100vh;
 }
 
 .myKnowleedge{
-  position: absolute;
-  top: 125px;
+  /*position: absolute;
+  top: 125px;*/
   text-align: center;
   width: 100%;
   color: white;
@@ -135,17 +141,21 @@ body {
 /*Projects Section*/
 #projects {
   /*background-image:url('../img/background.jpg');*/
+  margin: 0 5% 5% 5%;
+  padding: 10px;
+  font-family: 'Exo 2', sans-serif;
   background-color: black;
   background-size:cover;
-  position:relative;
+  /*position:relative;*/
   height:100vh;
 }
 
 /* My Projects Section */
 .myProjects{
 
-  position: absolute;
-  top: 125px;
+  /*position: absolute;
+  top: 125px;*/
+  margin-top: 50px;
   text-align: center;
   width: 100%;
   color: white;
@@ -153,16 +163,11 @@ body {
 
 }
 
-@media screen and (max-width: 480px) {
-
-    .myProjects {
-        display: block;
-        width: 65%;
-        margin: 0 auto;
-    }
-
+#projects h1
+{
+  font-size: 100px;
+  color: rgba(248, 253, 255, 0.39);
 }
-
 .modal{
   position: fixed;
     top: 50%;
@@ -207,8 +212,17 @@ body {
   text-align: center;
 }
 
+#contactDiv
+{
+  /*position: relative;*/
+  margin: 25px 25px 25px 25px;
+  padding: 10px;
+}
+
 #contact {
   background-color: rgba(248, 253, 255, 0.39);
+  /*position: absolute;
+  top: 125px;*/
   padding: 40px;
   margin-top: 20px;
   margin-bottom: 50px;
