@@ -77,7 +77,7 @@ body {
   font-family: 'Exo 2', sans-serif;
   background-size:cover;
   /*position:relative;*/
-  height:100vh;
+  /*height:100vh;*/
 }
 
 .aboutMe {
@@ -147,7 +147,7 @@ body {
   background-color: black;
   background-size:cover;
   /*position:relative;*/
-  height:100vh;
+  /*height:100vh;*/
 }
 
 /* My Projects Section */
