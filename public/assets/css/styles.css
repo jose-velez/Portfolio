@@ -163,6 +163,12 @@ body {
 
 }
 
+.col-centered {
+  float: none;
+  margin: auto;
+}
+
+
 #projects h1
 {
   font-size: 100px;
